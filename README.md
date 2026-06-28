@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# 🧵 TailorMade - Custom Clothing Platform
 
-## Project info
+**TailorMade** is an end-to-end custom clothing platform connecting customers, professional tailors, and fabric suppliers to design, customize, and fulfill personalized fashion items with a perfect fit.
 
-**URL**: https://lovable.dev/projects/d07bd093-2d7c-4867-a0a3-d26028e534fc
+---
 
-## How can I edit this code?
+## 🚀 Features & Documentation Showcase
 
-There are several ways of editing your application.
+### 🏡 1. Landing Page & Overview
+Connect with tailors and material suppliers to create personalized fashion items that express your unique style.
 
-**Use Lovable**
+![Landing Page Hero](./screenshots/Screenshot%202026-06-28%20110030.png)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d07bd093-2d7c-4867-a0a3-d26028e534fc) and start prompting.
+- **Custom Garment Design**: Personalize fit, materials, colors, and styling details.
+- **Expert Tailor Network**: Match with skilled tailors specialized in your garment type.
+- **Quality Material Sourcing**: Access premium fabrics directly from verified suppliers.
 
-Changes made via Lovable will be committed automatically to this repo.
+![Why Choose TailorMade & How It Works](./screenshots/Screenshot%202026-06-28%20110054.png)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🎨 2. Interactive Design Studio
+Customize clothing with live visual feedback and granular controls for styles, fabrics, and colors.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+![Design Studio](./screenshots/Screenshot%202026-06-28%20110140.png)
 
-Follow these steps:
+- **Live Preview Canvas**: Interactive visualization while adjusting garment parameters.
+- **Customization Options**: Select styles (Slim Fit, Regular, Relaxed, Athletic), fabrics, colors, and specific collar or pocket details.
+- **Design Summary & Cart**: Save designs for later or proceed directly to checkout.
+
+---
+
+### 👤 3. Customer Portal & Measurements
+Manage customer profiles, store precise body measurements, and browse ready-to-customize templates.
+
+![Customer Measurements & Templates](./screenshots/Screenshot%202026-06-28%20110203.png)
+
+- **Precision Body Measurements**: Save measurements for chest, waist, hips, shoulders, sleeve length, and neck.
+- **Design Templates**: Start from popular templates like Classic Oxford Shirts, Business Casual Blazers, or Modern Slim Fit Pants.
+
+---
+
+### ✂️ 4. Tailor Portal & Management
+A tailored management dashboard for artisan tailors to track orders, review customer sizing, and meet deadlines.
+
+![Tailor Dashboard](./screenshots/Screenshot%202026-06-28%20110257.png)
+
+- **Production Analytics**: Overview of new orders, in-progress garments, and completed jobs.
+- **Customer Profiles**: Quick inspection of customer measurement sheets and requested garment designs.
+- **Status Workflows**: Update order stages (e.g., *In Progress*, *Material Pending*, *Ready for Fitting*).
+
+---
+
+### 📦 5. Supplier Portal & Inventory
+A dedicated management portal for material suppliers to oversee fabric inventory and fulfill tailoring material orders.
+
+![Supplier Dashboard](./screenshots/Screenshot%202026-06-28%20110324.png)
+
+- **Stock & Fulfillment Tracking**: Monitor total inventory stock, pending orders, and delivered material shipments.
+- **Design Fabric Matching**: Review customer design IDs and approve material requests seamless workflow.
+
+---
+
+### 🚪 6. Role-Based Portals Access
+Integrated portal routing allows seamless switching between Customer, Tailor, and Supplier views.
+
+![Access Portals](./screenshots/Screenshot%202026-06-28%20110108.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: [React](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
+- **Build System & Dev Server**: [Vite](https://vitejs.dev/)
+- **UI Components & Styling**: [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
+
+---
+
+## 💻 Local Development Setup
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn / pnpm
+
+### Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Navigate to the project directory
+cd tailor-one
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d07bd093-2d7c-4867-a0a3-d26028e534fc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
